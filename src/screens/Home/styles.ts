@@ -11,9 +11,6 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center"
   },
-  modalView: {
-
-  },
   modalText: {
     color: "#FFF",
     fontSize: 22,

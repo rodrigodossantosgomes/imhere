@@ -36,7 +36,6 @@ export default function Home(){
         // Verifica se o nome está em branco
         if (!participantName.trim()) {
             return Alert.alert("Participante inválido","Por favor, digite um nome válido para o Participante.");
-            ;
           }
         // Verifica se o nome já existe na lista
         if(participants.some((item) => item.name === participantName)){
